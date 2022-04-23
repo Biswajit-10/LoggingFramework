@@ -1,0 +1,8 @@
+16:23:16.376 [main] ERROR com.appache.log.beta.Demo - Hello error!!!
+16:23:16.398 [main] INFO  com.appache.log.beta.Demo - Hello info!!!
+16:23:44.705 [main] ERROR com.appache.log.beta.Demo - Hello error!!!
+16:23:44.720 [main] INFO  com.appache.log.beta.Demo - Hello info!!!
+16:23:48.217 [main] ERROR com.appache.log.beta.Demo - Hello error!!!
+16:23:48.232 [main] INFO  com.appache.log.beta.Demo - Hello info!!!
+16:23:50.912 [main] ERROR com.appache.log.beta.Demo - Hello error!!!
+16:23:50.912 [main] INFO  com.appache.log.beta.Demo - Hello info!!!
