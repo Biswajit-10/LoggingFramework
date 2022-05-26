@@ -10,8 +10,8 @@
 			filePattern="${basePath}/prints-%d{HH-mm-ss}.log"> <!-- Name of the new file will be same as filePattern -->
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
-			<!-- When file reaches 500kb it triggers again one more file with filePattern -->
-			<SizeBasedTriggeringPolicy size="500" />
+			<!-- When file reaches 500byte it triggers again one more file with filePattern -->
+			<SizeBasedTriggeringPolicy size="5000000" />
 		</RollingFile>
 
 		<Console name="Console" target="SYSTEM_OUT">

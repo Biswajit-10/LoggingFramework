@@ -1,0 +1,10 @@
+log4j.rootLogger=TRACE, STDOUT, file
+log4j.appender.STDOUT=org.apache.log4j.ConsoleAppender
+log4j.appender.STDOUT.layout=org.apache.log4j.PatternLayout
+log4j.appender.STDOUT.layout.ConversionPattern=%c{1} – %m%n
+log4j.appender.STDOUT.Threshold=INFO
+log4j.appender.file=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.file.File=${basedir}/${log.file}.log
+log4j.appender.file.DatePattern=’-‘yyyy-MM-dd-HH’.log’
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%-5p %d{yyyy-MM-dd HH:mm:ss} %C:%L – %m%n

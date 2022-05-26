@@ -1,6 +1,0 @@
-16:38:42.050 [main] WARN  com.appache.log.alpha.A_WithoutConfigurationFile - Hello warn!!!
-16:38:42.066 [main] FATAL com.appache.log.alpha.A_WithoutConfigurationFile - Hello fatal!!!
-17:21:28.820 [main] ERROR com.appache.log.alpha.A_WithoutConfigurationFile - Hello error!!!
-17:21:28.828 [main] INFO  com.appache.log.alpha.A_WithoutConfigurationFile - Hello info!!!
-17:21:28.828 [main] FATAL com.appache.log.alpha.A_WithoutConfigurationFile - Hello fatal!!!
-17:21:28.828 [main] WARN  com.appache.log.alpha.A_WithoutConfigurationFile - Hello warn!!!

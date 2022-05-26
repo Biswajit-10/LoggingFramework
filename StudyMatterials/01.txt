@@ -1,0 +1,10 @@
+%C:%L – %m%n
+
+c = class name
+
+l = line number
+
+m= message
+
+n= new Line
+
